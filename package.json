@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/simple-node-ci-cd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/simple-node-ci-cd/issues"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/simple-node-ci-cd#readme",
+  "description": ""
 }
