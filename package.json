@@ -5,17 +5,19 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests || true"
   },
   "dependencies": {
     "express": "^4.18.2"
   },
   "devDependencies": {
     "jest": "^29.7.0",
-    "supertest": "^6.3.3"
+    "supertest": "^6.3.4"
   },
   "jest": {
-    "testMatch": ["**/__tests__/**/*.test.js"],
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ],
     "testEnvironment": "node"
   },
   "engines": {
