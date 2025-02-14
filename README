@@ -43,6 +43,7 @@ Your CI/CD pipeline is defined in .github/workflows/ci-cd.yml.
 Installs dependencies
 Runs Jest tests
 Deploys only if all tests pass
+
 🎉 Contributing
 Want to make this even cooler? Fork the repo, create a branch, and submit a PR! 🚀
 
